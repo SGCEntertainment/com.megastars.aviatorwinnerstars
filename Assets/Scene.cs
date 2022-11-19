@@ -8,10 +8,10 @@ public class Scene : MonoBehaviour
 {
     public void Game()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Game");
     }
     public void Menu()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("Menu");
     }
 }
